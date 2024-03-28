@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:padding="15dp">
+
+        <ImageView
+                android:id="@+id/color_image_view"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="8dp"
+                tools:src="@drawable/circle_green_24"/>
+
+        <TextView
+                android:id="@+id/title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/color_image_view"
+                android:text="Название привычки"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/priority_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_text_view"
+                android:layout_toEndOf="@id/color_image_view"
+                android:text="Высокий"/>
+
+        <TextView
+                android:id="@+id/type_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_text_view"
+                android:layout_toEndOf="@id/priority_text_view"
+                android:layout_marginStart="20dp"
+                android:text="Хорошая"/>
+
+        <TextView
+                android:id="@+id/period_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/priority_text_view"
+                android:layout_toEndOf="@id/color_image_view"
+                android:text="5 раз в 6 дней"/>
+
+
+        <TextView
+                android:id="@+id/description_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/period_text_view"
+                android:layout_toEndOf="@id/color_image_view"
+                android:text="Описание привычки Описание привычки Описание привычки Описание привычки Описание привычки"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

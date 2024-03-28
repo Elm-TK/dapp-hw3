@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">dz3</string>
+    <string name="submit">s</string>
+    <string name="insert_item">Insert item</string>
+    <string name="remove_item">Remove item</string>
+</resources>
