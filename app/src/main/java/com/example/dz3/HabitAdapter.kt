@@ -29,7 +29,7 @@ class HabitAdapter(
         holder.colorView.setImageResource(currentHabit.color)
         holder.titleView.text = currentHabit.title
         holder.descriptionView.text = currentHabit.description
-        holder.priorityView.text = currentHabit.priority.toString()
+        holder.priorityView.text = currentHabit.priority
         holder.typeView.text = currentHabit.type
         holder.periodView.text = "${currentHabit.repeat} раз в ${currentHabit.days} дней"
     }

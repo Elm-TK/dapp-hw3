@@ -54,7 +54,6 @@ class CreateOrEditHabit : AppCompatActivity() {
         var repeat: Int = findViewById<EditText>(R.id.repeat_input).text.toString().toInt()
         var days: Int = findViewById<EditText>(R.id.days_input).text.toString().toInt()
 
-
         val habit: Habit = Habit(color, title, description, priority, type_val, repeat, days)
         val intent: Intent = Intent();
         intent.putExtra("edit", this.intent.getBooleanExtra("edit", false))

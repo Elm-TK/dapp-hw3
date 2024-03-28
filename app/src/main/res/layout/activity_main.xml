@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                tools:context=".MainActivity">
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_view"
@@ -21,7 +22,11 @@
             android:layout_gravity="end|bottom"
             android:layout_margin="16dp"
             android:contentDescription="@string/submit"
-            android:src="@drawable/ic_my_icon" android:layout_alignParentEnd="true" android:layout_marginTop="16dp"
-            android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:layout_marginBottom="659dp"
+            android:src="@drawable/ic_my_icon"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="659dp"
             android:layout_alignParentBottom="true"/>
 </RelativeLayout>
